@@ -1,12 +1,11 @@
 # -*- encoding: utf-8 -*-
 from __future__ import unicode_literals
+import os
+from datetime import datetime
 
 from django.conf import settings
 from django.core.management.base import BaseCommand
-
 from boto3.session import Session
-from datetime import datetime
-import os
 
 
 class Command(BaseCommand):
